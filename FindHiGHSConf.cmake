@@ -4,7 +4,7 @@ message(NOTICE "Finding HiGHS environment")
 message(NOTICE "    - HiGHS Home detected at $ENV{HIGHS_HOME}")
 set(CMAKE_HiGHS_PATH "$ENV{HIGHS_HOME}")
 set(HiGHS_HEADER_LIB "$ENV{HIGHS_HOME}/lib")
-set(HiGHS_INCLUDE_DIR "$ENV{HIGHS_HOME}/include/highs")
+set(HiGHS_INCLUDE_DIR "$ENV{HIGHS_HOME}/../highs")
 
 file(GLOB_RECURSE
         HiGHS_HEADER_FILES
