@@ -58,10 +58,7 @@ then you can find the binary `plc` in the folder `<cuPDLP-C>/build/bin/`.
 - when using the release mode, we suggest the following options,
 
 ```
-cmake -DBUILD_CUDA=ON \
--DCMAKE_C_FLAGS_RELEASE="-O2 -DNDEBUG" \
--DCMAKE_CXX_FLAGS_RELEASE="-O2 -DNDEBUG" \
--DCMAKE_CUDA_FLAGS_RELEASE="-O2 -DNDEBUG" ..
+cmake -DBUILD_CUDA=ON -DCMAKE_C_FLAGS_RELEASE="-O2 -DNDEBUG" -DCMAKE_CXX_FLAGS_RELEASE="-O2 -DNDEBUG" -DCMAKE_CUDA_FLAGS_RELEASE="-O2 -DNDEBUG" ..
 ```  
 
 ## Alternative Interfaces
